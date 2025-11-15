@@ -1,6 +1,3 @@
-# Project Descriptions for Team hn347-scz6
-
-## hn347, scz6
 Our project is a reaction time game that uses one board. It uses the two side switches on the board (the buttons) and then a 4-digit LCD for score display, enabling two players to compete by pressing their designated buttons as quickly as possible. We will also add a fake, where if the red LED flashes, and a player clicks it, they will be penalized and lose a point. However, if the green LED flashes, the game records which player reacts first, awards a point for each win (the right button will get the digit on the rightmost side, and the same for left), and continues until one player gets 3 points. This will use advanced scheduling techniques by managing RT processes for accurately measuring reaction times and NRT processes for displaying updates on the LCD. 
 
 ## Peripherals: 

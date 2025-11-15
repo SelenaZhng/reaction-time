@@ -22,7 +22,3 @@ Our project is a reaction time game that uses one board. It uses the two side sw
 - Non-Real-Time (NRT) Processes: These are background tasks like updating the LCD with scores or running basic game logic. They don’t need exact timing, so they take turns running using a round-robin method that shares time fairly between them.
 
 - How They Work Together: If a real-time task is ready to run, it will pause whatever non-real-time task is running. If no tasks are ready, the system will wait until something happens, like a button press. This setup makes sure the game runs smoothly while keeping accurate track of who reacts first.
-
-# Project Web-Page
-
-The project web-pages will also be hosted on github in this repo in the "page" branch. You can edit it by switching branches and modifying the files, or by pushing to the branch. Here is a link to a minimal web-page that you can edit and modify: [https://pages.github.coecis.cornell.edu/ece3140-sp2025/hn347-scz6](https://pages.github.coecis.cornell.edu/ece3140-sp2025/hn347-scz6)
